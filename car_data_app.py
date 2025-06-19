@@ -81,5 +81,4 @@ def dashboard():
 # -------------------
 if "logged_in" not in st.session_state:
     st.session_state.logged_in = False
-
-if st
+if st.button("Login"):  
