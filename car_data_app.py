@@ -4,10 +4,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # -------------------
-# Logo + Heading
+# App Header & Logo
 # -------------------
-st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Car_icon_2.svg/1200px-Car_icon_2.svg.png", width=80)
-st.markdown("<h2 style='color:#e74c3c;'>🚗 Car Data Analysis Dashboard</h2>", unsafe_allow_html=True)
+def app_header():
+    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Car_icon_2.svg/1200px-Car_icon_2.svg.png", width=80)
+    st.markdown("<h2 style='color:#e74c3c;'>🚗 Car Data Analysis Dashboard</h2>", unsafe_allow_html=True)
 
 # -------------------
 # Login Page
@@ -27,11 +28,13 @@ def login_page():
 # Dashboard Page
 # -------------------
 def dashboard():
-    # Load data
+    app_header()
+
+    # Load your data (update filename if needed)
     df = pd.read_csv("CAR DETAILS FROM CAR DEKHO.csv")
     df["name_2"] = df["name"].apply(lambda x: x.split(" ")[0])
 
-    # Optional search bar
+    # Search bar
     search_text = st.text_input("🔍 Search by car name or brand")
     if search_text:
         df = df[df["name"].str.contains(search_text, case=False)]
@@ -41,6 +44,8 @@ def dashboard():
     year = st.sidebar.selectbox("Select Year", sorted(df["year"].unique(), reverse=True))
     fuel = st.sidebar.multiselect("Select Fuel Type", df["fuel"].unique())
 
+    # Logout button
+    st.sidebar.markdown("---")
     if st.sidebar.button("🔓 Logout"):
         st.session_state.logged_in = False
         st.rerun()
@@ -50,20 +55,20 @@ def dashboard():
     if fuel:
         filtered_df = filtered_df[filtered_df["fuel"].isin(fuel)]
 
-    # Show filtered results
-    st.subheader(f"🔍 Filtered Results: {len(filtered_df)} Cars")
+    # Show filtered data
+    st.subheader(f"📊 Filtered Cars: {len(filtered_df)} found")
     st.dataframe(filtered_df)
 
     # Download button
     csv = filtered_df.to_csv(index=False)
     st.download_button("📥 Download CSV", csv, "filtered_cars.csv", "text/csv")
 
-    # Top brands chart
+    # Top 5 car brands chart
     st.subheader("🏆 Top 5 Car Brands")
     top_brands = df["name_2"].value_counts().head(5)
     st.bar_chart(top_brands)
 
-    # Fuel type pie chart
+    # Pie chart: fuel type
     st.subheader("⛽ Fuel Type Distribution")
     fuel_counts = df["fuel"].value_counts()
     fig1, ax1 = plt.subplots()
@@ -72,12 +77,9 @@ def dashboard():
     st.pyplot(fig1)
 
 # -------------------
-# App Launcher
+# App Start
 # -------------------
 if "logged_in" not in st.session_state:
     st.session_state.logged_in = False
 
-if st.session_state.logged_in:
-    dashboard()
-else:
-    login_page()
+if st
