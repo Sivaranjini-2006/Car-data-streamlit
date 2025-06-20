@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
 
 # -------------------
 # App Header & Logo
@@ -30,54 +29,59 @@ def login_page():
 def dashboard():
     app_header()
 
-    # Load your data (update filename if needed)
+    # Load data
     df = pd.read_csv("CAR DETAILS FROM CAR DEKHO.csv")
     df["name_2"] = df["name"].apply(lambda x: x.split(" ")[0])
 
-    # Search bar
-    search_text = st.text_input("🔍 Search by car name or brand")
-    if search_text:
-        df = df[df["name"].str.contains(search_text, case=False)]
+    # Form starts here
+    with st.form("filter_form"):
+        st.markdown("### 📋 Filter Car Data")
 
-    # Sidebar filters
-    st.sidebar.header("📂 Filter Cars")
-    year = st.sidebar.selectbox("Select Year", sorted(df["year"].unique(), reverse=True))
-    fuel = st.sidebar.multiselect("Select Fuel Type", df["fuel"].unique())
+        search_text = st.text_input("🔍 Search by Car Name or Brand (optional)")
+        year = st.selectbox("📅 Select Year", sorted(df["year"].unique(), reverse=True))
+        fuel = st.multiselect("⛽ Select Fuel Type", df["fuel"].unique())
 
-    # Logout button
-    st.sidebar.markdown("---")
-    if st.sidebar.button("🔓 Logout"):
-        st.session_state.logged_in = False
-        st.rerun()
+        submitted = st.form_submit_button("Apply Filters")
 
-    # Apply filters
-    filtered_df = df[df["year"] == year]
-    if fuel:
-        filtered_df = filtered_df[filtered_df["fuel"].isin(fuel)]
+    # Show results after submit
+    if submitted:
+        filtered_df = df.copy()
 
-    # Show filtered data
-    st.subheader(f"📊 Filtered Cars: {len(filtered_df)} found")
-    st.dataframe(filtered_df)
+        if search_text:
+            filtered_df = filtered_df[filtered_df["name"].str.contains(search_text, case=False)]
 
-    # Download button
-    csv = filtered_df.to_csv(index=False)
-    st.download_button("📥 Download CSV", csv, "filtered_cars.csv", "text/csv")
+        filtered_df = filtered_df[filtered_df["year"] == year]
 
-    # Top 5 car brands chart
-    st.subheader("🏆 Top 5 Car Brands")
-    top_brands = df["name_2"].value_counts().head(5)
-    st.bar_chart(top_brands)
+        if fuel:
+            filtered_df = filtered_df[filtered_df["fuel"].isin(fuel)]
 
-    # Pie chart: fuel type
-    st.subheader("⛽ Fuel Type Distribution")
-    fuel_counts = df["fuel"].value_counts()
-    fig1, ax1 = plt.subplots()
-    ax1.pie(fuel_counts, labels=fuel_counts.index, autopct='%1.1f%%', startangle=90)
-    ax1.axis('equal')
-    st.pyplot(fig1)
+        st.subheader(f"📊 {len(filtered_df)} Cars Found")
+        st.dataframe(filtered_df)
+
+        # Download CSV
+        csv = filtered_df.to_csv(index=False)
+        st.download_button("📥 Download Filtered Data", csv, "filtered_cars.csv", "text/csv")
+
+        # Top 5 brands bar chart
+        st.subheader("🏆 Top 5 Car Brands")
+        top_brands = filtered_df["name_2"].value_counts().head(5)
+        st.bar_chart(top_brands)
+
+        # Fuel type pie chart
+        st.subheader("⛽ Fuel Type Distribution")
+        fuel_counts = filtered_df["fuel"].value_counts()
+        fig1, ax1 = plt.subplots()
+        ax1.pie(fuel_counts, labels=fuel_counts.index, autopct='%1.1f%%', startangle=90)
+        ax1.axis("equal")
+        st.pyplot(fig1)
+
+        # Logout button
+        if st.button("🔓 Logout"):
+            st.session_state.logged_in = False
+            st.rerun()
 
 # -------------------
-# App Start
+# App Launcher
 # -------------------
 if "logged_in" not in st.session_state:
     st.session_state.logged_in = False
@@ -86,4 +90,3 @@ if st.session_state.logged_in:
     dashboard()
 else:
     login_page()
-``
