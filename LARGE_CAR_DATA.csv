@@ -1,0 +1,401 @@
+name,year,selling_price,km_driven,fuel,seller_type,transmission,owner,mileage,engine,max_power,seats
+Honda City,2005,283580,13202,Diesel,Dealer,Automatic,Fourth & Above Owner,22.7,2256 CC,128 bhp,6
+Toyota Fortuner,2015,936304,124586,Petrol,Individual,Automatic,Test Drive Car,18.04,2131 CC,86 bhp,4
+Hyundai Creta,2015,1659042,95449,Diesel,Dealer,Automatic,Second Owner,20.09,2438 CC,136 bhp,6
+Maruti Dzire,2011,1464784,127939,LPG,Individual,Manual,Fourth & Above Owner,12.17,1069 CC,103 bhp,7
+Toyota Fortuner,2010,1929734,14433,Electric,Dealer,Manual,Third Owner,26.07,2221 CC,61 bhp,5
+Volkswagen Polo,2009,1474606,8724,Diesel,Dealer,Manual,Test Drive Car,27.04,2242 CC,78 bhp,5
+Maruti Dzire,2024,2056179,92472,CNG,Individual,Manual,Second Owner,24.28,962 CC,143 bhp,6
+Mahindra Thar,2019,1201456,67103,Diesel,Dealer,Automatic,Second Owner,16.03,2265 CC,98 bhp,6
+Honda Amaze,2021,1732344,94247,Petrol,Individual,Manual,Third Owner,20.99,1985 CC,71 bhp,4
+Honda WR-V,2006,1249480,139954,Electric,Dealer,Automatic,Second Owner,12.64,1011 CC,115 bhp,7
+Honda City,2011,1593340,49726,Petrol,Dealer,Automatic,Fourth & Above Owner,27.75,1424 CC,145 bhp,6
+Hyundai i20,2023,1801145,137138,Diesel,Dealer,Manual,Second Owner,27.63,2412 CC,85 bhp,6
+Hyundai Verna,2011,1075173,73698,Petrol,Dealer,Automatic,Fourth & Above Owner,10.61,1418 CC,90 bhp,7
+Kia Carens,2009,2212524,23608,CNG,Dealer,Manual,Test Drive Car,14.74,1346 CC,125 bhp,5
+Maruti WagonR,2020,1405209,136203,CNG,Dealer,Manual,First Owner,24.93,1372 CC,107 bhp,4
+Hyundai Verna,2016,1614420,62400,CNG,Individual,Automatic,Third Owner,10.11,2001 CC,94 bhp,4
+Renault Triber,2017,2470551,92543,Diesel,Individual,Automatic,Test Drive Car,19.16,2187 CC,88 bhp,5
+Ford EcoSport,2018,348439,118120,CNG,Dealer,Manual,Test Drive Car,15.75,1237 CC,80 bhp,4
+Honda WR-V,2010,2009753,114555,CNG,Dealer,Automatic,Second Owner,15.68,1857 CC,59 bhp,7
+Renault Kwid,2024,548347,121908,LPG,Individual,Manual,First Owner,20.85,905 CC,99 bhp,5
+Tata Altroz,2017,753099,110706,Electric,Dealer,Automatic,Second Owner,27.05,2367 CC,101 bhp,6
+Renault Triber,2010,1483150,115489,Electric,Individual,Manual,Second Owner,18.55,2417 CC,115 bhp,4
+Ford Figo,2009,1743259,118587,Diesel,Dealer,Manual,First Owner,17.97,1887 CC,126 bhp,5
+Ford Endeavour,2017,1704425,67722,Petrol,Individual,Automatic,Third Owner,10.83,1495 CC,86 bhp,6
+Mahindra Thar,2006,1069327,47814,Petrol,Dealer,Automatic,Third Owner,27.98,1571 CC,149 bhp,4
+Kia Seltos,2018,2152294,94025,Diesel,Dealer,Manual,Test Drive Car,11.34,2203 CC,63 bhp,5
+Tata Altroz,2020,2307513,69686,Diesel,Individual,Manual,Second Owner,22.39,2150 CC,149 bhp,6
+Hyundai i20,2023,2169082,36803,Electric,Dealer,Automatic,Third Owner,18.77,1656 CC,105 bhp,7
+Kia Seltos,2008,2462516,130653,CNG,Individual,Automatic,First Owner,27.37,1809 CC,147 bhp,4
+Tata Tiago,2007,1097329,117234,Diesel,Individual,Automatic,Third Owner,29.36,1613 CC,147 bhp,7
+Renault Triber,2008,266672,46287,LPG,Dealer,Automatic,First Owner,22.33,1500 CC,134 bhp,4
+Volkswagen Polo,2016,2318665,20391,Diesel,Dealer,Automatic,Fourth & Above Owner,26.54,831 CC,148 bhp,5
+Toyota Fortuner,2018,531948,139133,Diesel,Dealer,Manual,Test Drive Car,18.69,1566 CC,97 bhp,7
+Mahindra XUV500,2008,2309744,16903,Electric,Dealer,Automatic,Test Drive Car,25.36,2108 CC,144 bhp,5
+Ford EcoSport,2015,1293903,84799,Petrol,Dealer,Automatic,Fourth & Above Owner,16.44,1856 CC,129 bhp,5
+Tata Tiago,2024,2141131,88618,Diesel,Dealer,Automatic,First Owner,18.47,2281 CC,53 bhp,4
+Renault Triber,2020,1461713,81743,Petrol,Dealer,Manual,First Owner,11.39,1553 CC,114 bhp,4
+Toyota Glanza,2024,2441069,101310,LPG,Individual,Manual,Second Owner,21.5,2303 CC,118 bhp,4
+Hyundai Creta,2010,163526,95705,Diesel,Dealer,Manual,Test Drive Car,21.66,1591 CC,80 bhp,6
+Maruti Dzire,2013,2429828,47099,Electric,Dealer,Automatic,Test Drive Car,10.01,1367 CC,110 bhp,4
+Honda City,2009,2170422,116351,CNG,Individual,Manual,Third Owner,28.16,1129 CC,53 bhp,4
+Hyundai i20,2013,1590018,39652,Petrol,Dealer,Manual,First Owner,25.16,1427 CC,54 bhp,7
+Kia Carens,2010,2191783,28801,CNG,Dealer,Automatic,First Owner,27.82,1411 CC,145 bhp,6
+Kia Carens,2011,807263,12931,Petrol,Dealer,Manual,Second Owner,19.42,1791 CC,141 bhp,7
+Toyota Glanza,2013,518135,86330,LPG,Individual,Manual,Fourth & Above Owner,13.9,1456 CC,131 bhp,4
+Mahindra XUV500,2023,1191682,98903,CNG,Dealer,Automatic,First Owner,12.5,936 CC,60 bhp,7
+Maruti WagonR,2014,483209,114715,Diesel,Dealer,Automatic,Second Owner,26.8,2106 CC,69 bhp,5
+Kia Sonet,2017,2176378,17551,LPG,Individual,Manual,Test Drive Car,19.24,989 CC,138 bhp,7
+Volkswagen Taigun,2015,1111759,12692,Electric,Individual,Manual,Third Owner,26.84,1699 CC,137 bhp,7
+Honda WR-V,2017,347693,118473,Electric,Individual,Automatic,First Owner,20.88,1660 CC,54 bhp,5
+Renault Duster,2006,1787332,10831,Diesel,Individual,Manual,Second Owner,19.42,1616 CC,126 bhp,4
+Volkswagen Taigun,2020,1425033,145995,Diesel,Individual,Automatic,Third Owner,12.5,1505 CC,143 bhp,5
+Tata Altroz,2013,2192765,137149,Diesel,Dealer,Automatic,First Owner,11.73,2386 CC,111 bhp,7
+Honda City,2023,840331,64375,Petrol,Individual,Manual,Second Owner,28.3,1359 CC,106 bhp,6
+Honda City,2015,533833,79178,Diesel,Individual,Manual,Second Owner,21.23,2275 CC,66 bhp,7
+Maruti Baleno,2009,1139001,99951,CNG,Dealer,Automatic,Third Owner,17.57,1700 CC,67 bhp,5
+Renault Duster,2012,752102,141337,CNG,Dealer,Automatic,Fourth & Above Owner,17.18,1885 CC,77 bhp,6
+Honda WR-V,2017,1300761,104416,Petrol,Individual,Automatic,First Owner,12.87,1559 CC,138 bhp,6
+Kia Carens,2021,863742,105190,Diesel,Dealer,Automatic,Test Drive Car,26.34,1662 CC,56 bhp,5
+Renault Kwid,2011,1857088,28426,Petrol,Individual,Automatic,First Owner,24.5,2065 CC,120 bhp,4
+Kia Seltos,2012,1546473,76392,CNG,Dealer,Manual,Test Drive Car,10.63,2413 CC,60 bhp,6
+Maruti Dzire,2015,2101252,11945,CNG,Individual,Manual,Third Owner,28.37,936 CC,112 bhp,6
+Toyota Glanza,2012,1807150,29121,CNG,Dealer,Automatic,Third Owner,28.05,1099 CC,69 bhp,6
+Mahindra Scorpio,2024,2282326,22055,Petrol,Individual,Automatic,Test Drive Car,19.49,1425 CC,116 bhp,6
+Tata Nexon,2012,1211517,91118,CNG,Dealer,Automatic,Test Drive Car,25.1,1514 CC,139 bhp,5
+Maruti WagonR,2023,516649,20118,LPG,Dealer,Manual,Fourth & Above Owner,12.17,2076 CC,86 bhp,4
+Maruti Baleno,2024,438677,138886,CNG,Individual,Automatic,Test Drive Car,19.24,1532 CC,104 bhp,7
+Ford Endeavour,2015,2073196,17093,CNG,Dealer,Automatic,Third Owner,28.02,1080 CC,99 bhp,4
+Mahindra Thar,2013,623510,67447,CNG,Individual,Manual,Test Drive Car,11.35,1043 CC,105 bhp,5
+Volkswagen Taigun,2022,1982977,90196,Diesel,Dealer,Automatic,Third Owner,29.15,1826 CC,59 bhp,7
+Tata Tiago,2009,667658,65973,Petrol,Individual,Manual,Test Drive Car,10.63,1316 CC,125 bhp,5
+Volkswagen Vento,2024,1038943,86385,Diesel,Individual,Automatic,First Owner,27.23,1820 CC,125 bhp,6
+Kia Sonet,2008,2162640,141685,Electric,Individual,Manual,Second Owner,13.89,897 CC,102 bhp,7
+Maruti WagonR,2023,2476101,94341,Diesel,Individual,Automatic,Test Drive Car,21.07,1722 CC,90 bhp,5
+Toyota Innova,2006,479628,55338,Electric,Individual,Manual,Fourth & Above Owner,21.16,1726 CC,75 bhp,5
+Renault Triber,2021,2199973,24301,Diesel,Dealer,Manual,Second Owner,22.42,1133 CC,105 bhp,6
+Mahindra Scorpio,2006,684857,101486,CNG,Individual,Automatic,Second Owner,21.54,1535 CC,132 bhp,7
+Ford Endeavour,2012,1592387,67090,Petrol,Dealer,Automatic,Test Drive Car,14.41,1793 CC,66 bhp,5
+Ford Endeavour,2013,1862969,128302,CNG,Dealer,Manual,Test Drive Car,14.9,1243 CC,107 bhp,6
+Hyundai Venue,2016,490230,34572,Petrol,Individual,Automatic,Second Owner,13.44,828 CC,87 bhp,6
+Hyundai Creta,2024,2345629,106764,Petrol,Individual,Manual,Fourth & Above Owner,18.32,1174 CC,76 bhp,4
+Renault Kwid,2012,2055631,86968,CNG,Dealer,Manual,Test Drive Car,25.07,2185 CC,142 bhp,5
+Volkswagen Vento,2010,852228,5273,CNG,Dealer,Manual,First Owner,17.54,2007 CC,126 bhp,5
+Honda City,2013,2270731,79440,LPG,Individual,Automatic,Second Owner,14.97,1136 CC,71 bhp,7
+Ford EcoSport,2009,1526994,137889,Electric,Dealer,Automatic,Test Drive Car,29.87,1127 CC,100 bhp,7
+Kia Carens,2020,2286462,64520,Electric,Individual,Automatic,Second Owner,22.35,2361 CC,115 bhp,7
+Renault Kwid,2007,715225,75888,Diesel,Dealer,Automatic,Fourth & Above Owner,28.31,2283 CC,75 bhp,7
+Toyota Fortuner,2017,2344103,55709,CNG,Dealer,Automatic,Test Drive Car,20.06,2370 CC,102 bhp,7
+Tata Altroz,2011,1269198,42911,Electric,Individual,Manual,Second Owner,16.44,1038 CC,119 bhp,5
+Honda Amaze,2005,647892,146839,CNG,Dealer,Manual,First Owner,22.41,2242 CC,99 bhp,4
+Ford Endeavour,2014,754520,23680,Electric,Individual,Manual,Fourth & Above Owner,27.85,1743 CC,117 bhp,6
+Maruti WagonR,2015,2035094,123561,LPG,Individual,Automatic,Second Owner,18.67,1467 CC,139 bhp,5
+Mahindra Thar,2009,1193438,135865,Diesel,Individual,Automatic,Test Drive Car,26.42,1551 CC,95 bhp,5
+Maruti Swift,2007,1412135,69604,Petrol,Dealer,Automatic,Second Owner,29.58,2015 CC,52 bhp,7
+Mahindra XUV500,2017,2114202,86793,Electric,Individual,Automatic,Second Owner,11.51,2011 CC,89 bhp,4
+Honda WR-V,2016,367623,10907,Diesel,Individual,Manual,Fourth & Above Owner,20.3,1984 CC,122 bhp,5
+Volkswagen Polo,2016,1016433,62804,CNG,Individual,Automatic,First Owner,19.8,2237 CC,139 bhp,4
+Volkswagen Taigun,2010,1825426,39296,Diesel,Dealer,Manual,First Owner,19.7,1760 CC,75 bhp,6
+Honda Amaze,2013,2320214,84295,Electric,Dealer,Automatic,Test Drive Car,25.12,2479 CC,98 bhp,6
+Toyota Fortuner,2017,1585569,108027,Electric,Dealer,Manual,Fourth & Above Owner,14.33,1676 CC,53 bhp,6
+Honda City,2023,1294986,132353,Electric,Individual,Automatic,Third Owner,25.99,1300 CC,93 bhp,6
+Hyundai Verna,2013,2117365,67016,LPG,Individual,Manual,Third Owner,12.77,1721 CC,96 bhp,4
+Toyota Fortuner,2017,658889,53952,CNG,Dealer,Automatic,Second Owner,29.45,2224 CC,143 bhp,6
+Maruti Baleno,2008,310896,83840,Electric,Dealer,Automatic,First Owner,11.97,2378 CC,146 bhp,5
+Toyota Innova,2013,2309444,79711,LPG,Individual,Automatic,First Owner,21.75,2243 CC,131 bhp,5
+Renault Kwid,2008,350916,5006,Electric,Dealer,Manual,First Owner,23.75,1087 CC,122 bhp,4
+Honda City,2018,1683845,133375,Electric,Individual,Automatic,Second Owner,29.99,930 CC,61 bhp,7
+Tata Tiago,2022,1896773,13809,Diesel,Dealer,Manual,Fourth & Above Owner,17.35,1296 CC,130 bhp,7
+Honda WR-V,2008,1369233,31377,LPG,Individual,Manual,Test Drive Car,22.56,1598 CC,77 bhp,4
+Maruti Baleno,2010,1466787,30535,Diesel,Individual,Manual,Third Owner,21.07,1861 CC,50 bhp,5
+Volkswagen Vento,2010,1898812,88193,CNG,Dealer,Manual,Fourth & Above Owner,21.76,1604 CC,94 bhp,6
+Kia Sonet,2006,756028,61070,Petrol,Dealer,Manual,Fourth & Above Owner,10.94,2394 CC,133 bhp,6
+Ford EcoSport,2015,1859827,93511,Petrol,Individual,Automatic,Second Owner,15.83,1116 CC,101 bhp,5
+Renault Triber,2015,2051216,105362,Petrol,Dealer,Manual,Test Drive Car,24.25,1805 CC,83 bhp,7
+Toyota Innova,2010,787464,93357,LPG,Dealer,Manual,Second Owner,22.02,1600 CC,99 bhp,6
+Ford Endeavour,2021,582256,131658,Petrol,Dealer,Manual,Second Owner,14.69,1003 CC,128 bhp,4
+Toyota Innova,2008,2220115,42130,Electric,Individual,Automatic,Fourth & Above Owner,29.93,1051 CC,64 bhp,6
+Mahindra Scorpio,2013,1647510,128252,LPG,Dealer,Manual,Fourth & Above Owner,21.25,1778 CC,85 bhp,4
+Toyota Innova,2008,1482640,48472,Diesel,Dealer,Manual,Second Owner,19.18,1774 CC,105 bhp,4
+Honda WR-V,2011,1057981,97787,CNG,Individual,Manual,Fourth & Above Owner,21.25,1783 CC,131 bhp,4
+Honda Amaze,2015,1746094,53269,Electric,Dealer,Automatic,Fourth & Above Owner,23.45,1272 CC,120 bhp,5
+Mahindra Scorpio,2005,2231660,61497,Petrol,Individual,Automatic,Third Owner,13.23,2451 CC,113 bhp,6
+Toyota Innova,2020,1560195,130083,LPG,Dealer,Manual,Fourth & Above Owner,10.77,1025 CC,121 bhp,4
+Ford EcoSport,2017,1751312,34943,Diesel,Dealer,Manual,Test Drive Car,13.32,1754 CC,130 bhp,5
+Renault Kwid,2015,892560,104938,Electric,Individual,Automatic,Third Owner,22.34,2237 CC,80 bhp,6
+Kia Carens,2006,1645909,59161,Diesel,Dealer,Automatic,Fourth & Above Owner,25.47,1735 CC,68 bhp,7
+Maruti WagonR,2024,1811251,58798,CNG,Individual,Automatic,Second Owner,11.65,884 CC,118 bhp,6
+Volkswagen Taigun,2013,2228913,128515,Electric,Individual,Automatic,Fourth & Above Owner,25.98,2216 CC,62 bhp,7
+Toyota Fortuner,2011,2096571,77033,Diesel,Dealer,Automatic,First Owner,27.64,2060 CC,53 bhp,7
+Renault Duster,2017,486952,49579,CNG,Dealer,Manual,Test Drive Car,22.29,1215 CC,52 bhp,4
+Hyundai Creta,2012,2338217,38647,Diesel,Dealer,Manual,Third Owner,14.32,1441 CC,75 bhp,6
+Tata Nexon,2010,1310105,27998,CNG,Dealer,Automatic,Fourth & Above Owner,21.82,966 CC,134 bhp,4
+Renault Duster,2011,2154712,146850,LPG,Individual,Automatic,Test Drive Car,25.73,1168 CC,76 bhp,6
+Volkswagen Vento,2013,692467,12373,Diesel,Dealer,Automatic,First Owner,20.97,2116 CC,147 bhp,4
+Toyota Fortuner,2008,256361,133628,Petrol,Dealer,Automatic,Second Owner,19.03,2062 CC,66 bhp,4
+Renault Kwid,2010,851544,51497,CNG,Dealer,Manual,Second Owner,11.65,1519 CC,98 bhp,5
+Mahindra Thar,2015,303833,137930,Diesel,Individual,Automatic,First Owner,18.9,959 CC,69 bhp,6
+Hyundai i20,2005,1507483,56420,LPG,Dealer,Automatic,Fourth & Above Owner,17.71,1594 CC,145 bhp,6
+Kia Sonet,2007,561125,5976,Electric,Dealer,Manual,Fourth & Above Owner,24.06,1350 CC,126 bhp,7
+Tata Nexon,2024,284547,124776,LPG,Dealer,Automatic,Fourth & Above Owner,15.51,1774 CC,82 bhp,7
+Renault Triber,2012,637376,96915,Electric,Individual,Manual,First Owner,16.28,2089 CC,100 bhp,6
+Mahindra Thar,2011,2316631,91568,Electric,Individual,Manual,Fourth & Above Owner,11.42,949 CC,141 bhp,6
+Mahindra Scorpio,2005,1344968,61630,CNG,Dealer,Manual,Fourth & Above Owner,15.81,1647 CC,134 bhp,6
+Hyundai Verna,2007,411736,22843,LPG,Dealer,Manual,Third Owner,16.51,2124 CC,146 bhp,4
+Renault Kwid,2012,848731,51871,LPG,Individual,Automatic,Fourth & Above Owner,18.78,1538 CC,57 bhp,6
+Mahindra Thar,2022,278187,131677,Petrol,Individual,Manual,Test Drive Car,16.53,2342 CC,146 bhp,5
+Honda WR-V,2009,168795,111079,LPG,Dealer,Automatic,Fourth & Above Owner,21.92,1015 CC,128 bhp,7
+Toyota Innova,2005,270158,20930,CNG,Dealer,Automatic,Second Owner,24.58,1009 CC,124 bhp,7
+Maruti Swift,2014,1435637,8157,CNG,Individual,Manual,Third Owner,12.39,1221 CC,66 bhp,6
+Tata Nexon,2005,2486928,35743,CNG,Individual,Automatic,Test Drive Car,13.29,1060 CC,76 bhp,5
+Renault Triber,2009,1740312,145324,CNG,Individual,Manual,Second Owner,14.21,850 CC,141 bhp,6
+Honda City,2006,1014335,35404,Petrol,Individual,Manual,First Owner,22.18,1605 CC,80 bhp,5
+Honda Amaze,2019,1338721,146755,Petrol,Individual,Manual,Third Owner,11.96,2491 CC,58 bhp,4
+Renault Triber,2008,728191,109428,LPG,Dealer,Automatic,Test Drive Car,17.65,1308 CC,124 bhp,6
+Volkswagen Taigun,2021,334129,136477,Electric,Individual,Manual,Second Owner,26.52,1688 CC,82 bhp,6
+Volkswagen Vento,2009,2093400,100998,Electric,Dealer,Manual,First Owner,16.83,2070 CC,72 bhp,4
+Maruti Baleno,2024,1896539,89648,Diesel,Dealer,Automatic,Fourth & Above Owner,18.08,854 CC,74 bhp,4
+Renault Triber,2006,1108419,40530,Electric,Individual,Manual,Second Owner,27.85,2314 CC,131 bhp,7
+Tata Tiago,2011,174712,33720,Petrol,Individual,Manual,First Owner,19.88,1205 CC,117 bhp,7
+Ford Endeavour,2007,2329874,54689,Diesel,Dealer,Manual,Fourth & Above Owner,20.98,2236 CC,120 bhp,4
+Kia Seltos,2011,1469071,139881,CNG,Dealer,Automatic,Second Owner,19.98,983 CC,139 bhp,7
+Tata Tiago,2019,986538,72901,Diesel,Individual,Automatic,Third Owner,19.69,2129 CC,115 bhp,7
+Ford Figo,2011,268379,79739,Diesel,Individual,Manual,Fourth & Above Owner,12.43,2222 CC,102 bhp,5
+Toyota Glanza,2021,2362904,90406,LPG,Dealer,Automatic,Fourth & Above Owner,29.9,2422 CC,144 bhp,4
+Maruti WagonR,2021,2196905,38079,CNG,Dealer,Automatic,First Owner,15.95,1080 CC,109 bhp,4
+Hyundai Venue,2016,945883,129821,CNG,Dealer,Manual,Third Owner,18.44,1220 CC,57 bhp,4
+Tata Nexon,2005,232841,119194,Petrol,Individual,Manual,First Owner,19.77,1450 CC,66 bhp,6
+Mahindra Thar,2020,1947267,97008,Petrol,Dealer,Manual,Test Drive Car,23.79,1492 CC,134 bhp,5
+Honda Amaze,2013,591236,44044,LPG,Individual,Automatic,Second Owner,16.45,1007 CC,149 bhp,6
+Renault Duster,2016,1599609,8226,Petrol,Individual,Manual,Fourth & Above Owner,13.84,2155 CC,126 bhp,5
+Ford Endeavour,2017,471571,135961,LPG,Dealer,Manual,Third Owner,24.7,1059 CC,119 bhp,7
+Volkswagen Polo,2015,1213034,140110,LPG,Dealer,Manual,Test Drive Car,17.66,1636 CC,119 bhp,5
+Mahindra XUV500,2024,745728,38159,LPG,Individual,Manual,Second Owner,19.68,1978 CC,125 bhp,6
+Volkswagen Vento,2014,2321300,57249,Diesel,Dealer,Automatic,Fourth & Above Owner,25.68,1497 CC,54 bhp,6
+Hyundai Verna,2022,2218749,82573,Petrol,Individual,Automatic,First Owner,16.09,1151 CC,56 bhp,7
+Renault Kwid,2011,2233437,25302,Petrol,Individual,Manual,Test Drive Car,26.4,1700 CC,59 bhp,4
+Kia Sonet,2017,1204774,123649,Petrol,Individual,Automatic,Test Drive Car,15.51,990 CC,96 bhp,7
+Mahindra Scorpio,2014,2435312,141348,LPG,Dealer,Manual,First Owner,13.43,986 CC,105 bhp,4
+Hyundai Creta,2022,2241107,10087,Petrol,Individual,Automatic,Fourth & Above Owner,11.59,1862 CC,144 bhp,4
+Kia Carens,2016,1326444,24656,CNG,Dealer,Automatic,Fourth & Above Owner,18.43,2019 CC,52 bhp,7
+Honda Amaze,2006,1680682,109100,LPG,Dealer,Automatic,First Owner,27.44,2261 CC,125 bhp,6
+Hyundai i20,2015,1493578,94382,Electric,Dealer,Manual,First Owner,25.73,1723 CC,81 bhp,7
+Renault Triber,2006,2316230,17689,LPG,Individual,Automatic,Third Owner,10.07,1520 CC,118 bhp,6
+Volkswagen Polo,2013,370556,115073,Petrol,Dealer,Manual,Fourth & Above Owner,13.58,2434 CC,65 bhp,4
+Kia Carens,2017,283729,72110,Electric,Individual,Manual,Test Drive Car,12.67,2026 CC,87 bhp,5
+Hyundai Creta,2007,503656,133781,LPG,Dealer,Automatic,Test Drive Car,18.26,1952 CC,115 bhp,6
+Maruti Dzire,2012,1534632,145290,Electric,Dealer,Automatic,Second Owner,19.89,1060 CC,80 bhp,4
+Tata Altroz,2012,2010754,68710,Diesel,Dealer,Automatic,Test Drive Car,13.13,902 CC,140 bhp,7
+Honda Amaze,2010,743712,8230,Electric,Individual,Automatic,First Owner,19.28,1497 CC,107 bhp,4
+Kia Sonet,2020,1311110,10191,LPG,Individual,Automatic,Test Drive Car,16.64,1408 CC,70 bhp,5
+Maruti WagonR,2014,1305566,76428,Petrol,Individual,Manual,Second Owner,11.35,1339 CC,103 bhp,7
+Kia Sonet,2011,879681,146969,CNG,Dealer,Manual,Test Drive Car,29.84,2453 CC,80 bhp,5
+Tata Tiago,2016,167048,60090,Diesel,Individual,Manual,Second Owner,23.72,1446 CC,77 bhp,6
+Ford Endeavour,2013,608510,139292,Petrol,Dealer,Automatic,Fourth & Above Owner,12.14,1670 CC,84 bhp,6
+Ford Figo,2017,217343,120813,CNG,Individual,Manual,Fourth & Above Owner,28.63,1804 CC,127 bhp,4
+Hyundai Venue,2010,2292016,91956,Diesel,Individual,Automatic,Test Drive Car,28.51,1696 CC,141 bhp,7
+Renault Duster,2017,1996572,84468,Petrol,Individual,Automatic,Fourth & Above Owner,10.04,1378 CC,117 bhp,5
+Mahindra XUV500,2013,802489,87393,Electric,Dealer,Manual,First Owner,12.87,1028 CC,90 bhp,6
+Maruti Baleno,2020,2126833,100607,Diesel,Individual,Manual,Test Drive Car,25.53,1364 CC,109 bhp,7
+Hyundai Verna,2017,2146829,22130,Petrol,Dealer,Manual,First Owner,21.22,2302 CC,128 bhp,6
+Tata Tiago,2013,475306,73448,LPG,Dealer,Manual,First Owner,26.28,1071 CC,148 bhp,5
+Volkswagen Polo,2008,2202031,47316,CNG,Dealer,Automatic,Test Drive Car,25.07,1076 CC,53 bhp,4
+Maruti Dzire,2016,1804188,53802,LPG,Individual,Manual,Test Drive Car,19.63,1701 CC,78 bhp,5
+Maruti Dzire,2009,1822489,53996,Electric,Dealer,Manual,Third Owner,29.95,1765 CC,101 bhp,5
+Kia Seltos,2010,1152838,86805,CNG,Individual,Automatic,First Owner,25.39,2023 CC,101 bhp,5
+Ford Figo,2007,1576209,121407,Petrol,Individual,Automatic,Fourth & Above Owner,20.89,1639 CC,72 bhp,7
+Toyota Glanza,2010,2340559,83866,Petrol,Individual,Automatic,Test Drive Car,15.3,1786 CC,67 bhp,5
+Tata Altroz,2023,1481247,105897,Electric,Individual,Automatic,Third Owner,11.42,1428 CC,144 bhp,4
+Toyota Glanza,2011,2227191,142831,LPG,Individual,Manual,First Owner,21.71,2026 CC,127 bhp,6
+Hyundai Verna,2024,2152315,62720,Diesel,Dealer,Manual,Third Owner,26.08,2124 CC,119 bhp,4
+Hyundai Verna,2016,2096887,34192,CNG,Dealer,Automatic,Fourth & Above Owner,23.11,1881 CC,148 bhp,4
+Honda WR-V,2014,1166933,40572,Petrol,Dealer,Automatic,Fourth & Above Owner,17.98,922 CC,51 bhp,4
+Honda Amaze,2006,844332,16007,Diesel,Dealer,Manual,Second Owner,24.57,1784 CC,143 bhp,6
+Tata Tiago,2008,209897,133172,Electric,Dealer,Automatic,Test Drive Car,17.93,1682 CC,149 bhp,4
+Tata Tiago,2006,1641381,144088,Petrol,Individual,Automatic,Fourth & Above Owner,13.03,2113 CC,63 bhp,4
+Honda Amaze,2018,1183028,45287,Petrol,Dealer,Manual,First Owner,15.3,2092 CC,146 bhp,4
+Maruti WagonR,2012,1354465,50638,LPG,Dealer,Manual,Second Owner,22.43,2184 CC,110 bhp,7
+Renault Duster,2011,2163375,107857,CNG,Individual,Automatic,Test Drive Car,26.59,989 CC,130 bhp,5
+Tata Tiago,2006,1933913,130480,Diesel,Individual,Automatic,First Owner,13.12,1992 CC,123 bhp,5
+Honda Amaze,2015,758412,133874,Electric,Individual,Automatic,Test Drive Car,16.0,2223 CC,115 bhp,7
+Maruti Dzire,2019,2447166,63946,LPG,Individual,Manual,Fourth & Above Owner,11.84,1397 CC,148 bhp,5
+Volkswagen Taigun,2011,1424144,26021,Petrol,Dealer,Automatic,Second Owner,22.52,2482 CC,148 bhp,6
+Mahindra Scorpio,2024,2419713,48828,Petrol,Dealer,Automatic,Third Owner,26.51,1710 CC,134 bhp,4
+Kia Carens,2024,1216978,116171,CNG,Dealer,Automatic,Second Owner,15.39,997 CC,82 bhp,4
+Tata Tiago,2011,351961,90191,Electric,Dealer,Manual,Third Owner,29.26,1890 CC,104 bhp,7
+Volkswagen Vento,2015,2051238,14362,LPG,Dealer,Automatic,Second Owner,29.02,1724 CC,106 bhp,7
+Toyota Glanza,2023,1867892,55455,Diesel,Dealer,Manual,Test Drive Car,13.41,906 CC,148 bhp,5
+Mahindra XUV500,2018,1040354,113014,CNG,Individual,Manual,Fourth & Above Owner,19.23,1573 CC,70 bhp,7
+Hyundai i20,2006,903891,115098,CNG,Individual,Automatic,First Owner,19.68,2254 CC,89 bhp,7
+Maruti Dzire,2010,528778,120782,Diesel,Individual,Manual,Second Owner,29.42,1923 CC,58 bhp,6
+Kia Carens,2017,2083049,141805,Petrol,Dealer,Manual,Third Owner,17.92,2401 CC,115 bhp,5
+Renault Kwid,2005,1932421,128198,Electric,Individual,Automatic,Fourth & Above Owner,27.88,1046 CC,56 bhp,5
+Toyota Innova,2019,925973,133450,Diesel,Dealer,Automatic,Fourth & Above Owner,26.07,2478 CC,89 bhp,7
+Toyota Glanza,2011,1699969,60106,LPG,Dealer,Automatic,First Owner,26.02,1384 CC,125 bhp,7
+Renault Kwid,2023,1650229,6615,CNG,Dealer,Automatic,Fourth & Above Owner,25.13,1887 CC,119 bhp,7
+Toyota Innova,2013,477609,56366,Electric,Individual,Manual,Fourth & Above Owner,18.73,930 CC,53 bhp,6
+Maruti Baleno,2024,681890,59592,LPG,Individual,Automatic,Fourth & Above Owner,23.35,1538 CC,71 bhp,6
+Volkswagen Polo,2021,642993,81687,LPG,Dealer,Manual,Test Drive Car,17.61,996 CC,89 bhp,5
+Toyota Fortuner,2020,383823,98318,CNG,Individual,Automatic,Second Owner,11.32,1423 CC,122 bhp,7
+Toyota Innova,2021,318891,87898,LPG,Individual,Automatic,Fourth & Above Owner,18.25,1374 CC,136 bhp,7
+Mahindra Thar,2010,1199767,84649,Petrol,Individual,Automatic,First Owner,28.6,2037 CC,61 bhp,6
+Mahindra XUV500,2005,1413090,32680,Electric,Dealer,Automatic,Third Owner,16.26,1588 CC,121 bhp,5
+Mahindra Scorpio,2011,1317722,58034,Electric,Dealer,Manual,Fourth & Above Owner,17.41,1768 CC,116 bhp,5
+Volkswagen Vento,2023,530803,133761,LPG,Individual,Manual,Test Drive Car,23.49,1625 CC,134 bhp,6
+Maruti WagonR,2011,1708232,95666,CNG,Dealer,Manual,Third Owner,23.31,1072 CC,147 bhp,5
+Mahindra Scorpio,2020,1205337,93884,CNG,Individual,Manual,Fourth & Above Owner,16.74,946 CC,51 bhp,7
+Mahindra Thar,2017,1153825,29973,LPG,Individual,Automatic,Fourth & Above Owner,23.08,1706 CC,111 bhp,5
+Mahindra XUV500,2024,2011705,10084,Petrol,Individual,Automatic,Third Owner,20.92,2260 CC,126 bhp,6
+Ford Endeavour,2012,1073663,49521,Diesel,Individual,Automatic,Fourth & Above Owner,27.33,1106 CC,121 bhp,6
+Maruti Swift,2013,1064297,23300,CNG,Individual,Automatic,Test Drive Car,12.46,1238 CC,145 bhp,7
+Toyota Innova,2006,2034852,141008,Diesel,Dealer,Manual,Fourth & Above Owner,29.14,1597 CC,140 bhp,5
+Honda Amaze,2007,1276577,72851,Petrol,Dealer,Manual,First Owner,14.52,2145 CC,114 bhp,6
+Honda WR-V,2008,1805429,134744,Petrol,Dealer,Automatic,First Owner,22.84,2109 CC,65 bhp,4
+Volkswagen Vento,2017,1184341,146077,LPG,Dealer,Automatic,Test Drive Car,24.24,810 CC,110 bhp,7
+Kia Seltos,2012,1129408,145525,Diesel,Individual,Manual,Third Owner,22.97,2368 CC,100 bhp,6
+Mahindra Thar,2018,1331390,95877,Electric,Individual,Automatic,Fourth & Above Owner,25.76,2333 CC,65 bhp,6
+Maruti Baleno,2008,2424116,118701,Diesel,Dealer,Automatic,Fourth & Above Owner,23.64,1984 CC,127 bhp,4
+Renault Kwid,2018,2139671,12219,CNG,Dealer,Automatic,Second Owner,16.93,2170 CC,53 bhp,7
+Maruti Dzire,2019,1920160,58750,CNG,Dealer,Manual,Test Drive Car,12.7,933 CC,95 bhp,6
+Honda WR-V,2017,2492847,66330,Diesel,Dealer,Manual,First Owner,29.0,2405 CC,136 bhp,4
+Toyota Glanza,2006,999004,10889,Petrol,Individual,Automatic,Second Owner,28.68,1516 CC,149 bhp,7
+Toyota Glanza,2018,1748825,109869,Petrol,Individual,Automatic,Second Owner,23.87,1424 CC,137 bhp,5
+Kia Carens,2020,928997,139929,LPG,Individual,Manual,Test Drive Car,19.06,2177 CC,72 bhp,4
+Ford Figo,2006,2228813,116877,Diesel,Individual,Automatic,Test Drive Car,16.78,1792 CC,144 bhp,7
+Maruti Dzire,2014,2263313,16689,Electric,Dealer,Automatic,Third Owner,25.26,2498 CC,105 bhp,4
+Maruti Dzire,2021,176708,128614,Electric,Individual,Manual,First Owner,12.57,2242 CC,132 bhp,6
+Maruti Swift,2021,572016,94482,LPG,Dealer,Manual,Fourth & Above Owner,24.96,2360 CC,126 bhp,4
+Kia Sonet,2014,238911,74534,Petrol,Dealer,Automatic,First Owner,12.65,1693 CC,59 bhp,6
+Mahindra Scorpio,2023,483512,121344,LPG,Dealer,Automatic,First Owner,26.93,1691 CC,111 bhp,7
+Kia Sonet,2012,1666183,125050,Diesel,Individual,Manual,First Owner,23.38,997 CC,98 bhp,4
+Mahindra Thar,2007,441844,102029,LPG,Dealer,Automatic,Fourth & Above Owner,29.9,1166 CC,68 bhp,4
+Renault Duster,2008,684232,18877,Diesel,Individual,Manual,Second Owner,12.15,2345 CC,95 bhp,6
+Volkswagen Polo,2005,2373466,103088,Diesel,Individual,Automatic,Third Owner,23.11,827 CC,64 bhp,5
+Honda City,2012,279898,78945,CNG,Individual,Manual,Third Owner,22.32,1185 CC,103 bhp,7
+Volkswagen Vento,2024,326209,94001,LPG,Individual,Automatic,Fourth & Above Owner,13.4,1740 CC,138 bhp,7
+Toyota Glanza,2020,1398648,115165,Petrol,Individual,Manual,Second Owner,15.65,1612 CC,80 bhp,6
+Renault Triber,2011,605828,119875,Diesel,Individual,Automatic,First Owner,27.62,887 CC,131 bhp,6
+Kia Seltos,2014,766190,73054,LPG,Dealer,Manual,Second Owner,23.49,1246 CC,145 bhp,5
+Ford EcoSport,2011,680707,142168,LPG,Dealer,Automatic,Test Drive Car,23.44,2247 CC,53 bhp,5
+Mahindra Thar,2021,1406933,111856,LPG,Individual,Manual,First Owner,20.69,805 CC,77 bhp,4
+Toyota Innova,2013,834085,103413,Diesel,Individual,Automatic,First Owner,16.12,1749 CC,92 bhp,7
+Toyota Glanza,2019,1875601,79836,LPG,Individual,Manual,Fourth & Above Owner,26.22,956 CC,68 bhp,4
+Toyota Glanza,2014,1778845,52262,Electric,Individual,Automatic,First Owner,16.46,1123 CC,65 bhp,4
+Mahindra XUV500,2012,365939,48302,Petrol,Dealer,Automatic,Fourth & Above Owner,26.86,1073 CC,141 bhp,7
+Mahindra XUV500,2016,1336696,67452,LPG,Individual,Manual,Fourth & Above Owner,22.27,1347 CC,110 bhp,7
+Kia Sonet,2011,361022,134030,Diesel,Dealer,Manual,Second Owner,14.35,1514 CC,79 bhp,4
+Toyota Glanza,2005,2471795,119513,Petrol,Dealer,Automatic,Third Owner,13.81,1025 CC,75 bhp,5
+Tata Nexon,2015,1706614,109135,Diesel,Individual,Manual,Test Drive Car,24.64,1913 CC,94 bhp,6
+Maruti Baleno,2017,1817802,59967,LPG,Individual,Manual,Fourth & Above Owner,20.65,1406 CC,62 bhp,5
+Hyundai Verna,2006,955247,81585,Electric,Dealer,Manual,Test Drive Car,10.94,980 CC,60 bhp,7
+Renault Triber,2020,2169697,109391,CNG,Dealer,Manual,Test Drive Car,10.04,870 CC,94 bhp,4
+Mahindra Scorpio,2011,314659,39247,LPG,Dealer,Automatic,Fourth & Above Owner,13.54,1341 CC,97 bhp,5
+Renault Triber,2014,1147564,63282,Petrol,Dealer,Automatic,Third Owner,18.17,1982 CC,66 bhp,5
+Honda Amaze,2012,1486817,14424,CNG,Dealer,Manual,Third Owner,14.89,2089 CC,75 bhp,4
+Renault Duster,2019,658623,146439,LPG,Dealer,Automatic,First Owner,19.08,1874 CC,120 bhp,7
+Tata Nexon,2010,352013,33146,Diesel,Individual,Manual,Third Owner,22.31,1347 CC,78 bhp,4
+Ford EcoSport,2010,661579,82385,CNG,Dealer,Automatic,Second Owner,18.18,2374 CC,144 bhp,4
+Mahindra XUV500,2024,1054147,97208,LPG,Individual,Automatic,Test Drive Car,12.06,1034 CC,65 bhp,5
+Ford Figo,2009,2259594,49656,Diesel,Dealer,Manual,First Owner,26.37,2220 CC,87 bhp,6
+Kia Carens,2024,717130,27070,Petrol,Dealer,Automatic,Fourth & Above Owner,27.38,961 CC,134 bhp,6
+Honda Amaze,2009,1694966,58765,Petrol,Individual,Manual,Fourth & Above Owner,16.96,1359 CC,63 bhp,4
+Volkswagen Polo,2011,1086064,51571,Diesel,Dealer,Automatic,First Owner,24.18,952 CC,115 bhp,6
+Ford EcoSport,2018,1862926,75530,Electric,Dealer,Automatic,Fourth & Above Owner,10.72,2480 CC,63 bhp,4
+Mahindra Scorpio,2012,1537546,121313,Diesel,Dealer,Automatic,Fourth & Above Owner,11.45,2496 CC,96 bhp,7
+Tata Tiago,2014,1809139,11041,Diesel,Dealer,Manual,Second Owner,10.53,2156 CC,126 bhp,4
+Kia Sonet,2010,1975415,139537,CNG,Dealer,Automatic,Test Drive Car,17.04,2172 CC,137 bhp,6
+Maruti WagonR,2014,657780,33573,Diesel,Dealer,Automatic,Test Drive Car,26.13,1768 CC,144 bhp,5
+Renault Duster,2012,986996,14966,Diesel,Dealer,Automatic,Test Drive Car,17.22,1783 CC,50 bhp,5
+Hyundai Creta,2017,972059,46072,LPG,Dealer,Automatic,First Owner,24.15,870 CC,69 bhp,4
+Toyota Fortuner,2009,1284013,135794,Petrol,Individual,Manual,Second Owner,15.84,1056 CC,115 bhp,4
+Toyota Fortuner,2009,805920,112781,CNG,Individual,Manual,Second Owner,29.79,1783 CC,144 bhp,7
+Toyota Innova,2017,575449,38992,CNG,Individual,Automatic,First Owner,27.46,1151 CC,134 bhp,4
+Toyota Fortuner,2021,1584450,81203,CNG,Individual,Automatic,Test Drive Car,22.75,2391 CC,110 bhp,6
+Toyota Innova,2016,1052279,92793,LPG,Dealer,Automatic,Fourth & Above Owner,18.18,1937 CC,140 bhp,5
+Ford EcoSport,2016,1366278,128773,Diesel,Dealer,Automatic,First Owner,27.02,2006 CC,62 bhp,5
+Toyota Fortuner,2021,1752728,138965,Electric,Dealer,Manual,Third Owner,10.28,2208 CC,100 bhp,6
+Toyota Glanza,2013,2080032,51817,Diesel,Dealer,Automatic,Second Owner,17.29,2383 CC,109 bhp,6
+Honda Amaze,2008,725839,127089,Petrol,Dealer,Manual,Test Drive Car,14.16,1135 CC,109 bhp,6
+Mahindra Scorpio,2005,1305775,117404,LPG,Dealer,Manual,Test Drive Car,11.09,926 CC,126 bhp,7
+Tata Nexon,2009,1609300,110147,CNG,Dealer,Manual,Fourth & Above Owner,26.25,1932 CC,133 bhp,6
+Ford EcoSport,2014,1348380,66857,Electric,Dealer,Automatic,Third Owner,18.43,1299 CC,131 bhp,6
+Renault Duster,2007,219862,22020,LPG,Individual,Manual,Third Owner,14.04,1842 CC,68 bhp,4
+Honda Amaze,2005,2349098,144093,Petrol,Dealer,Automatic,First Owner,23.14,1306 CC,98 bhp,4
+Tata Tiago,2013,2217914,108038,LPG,Dealer,Manual,Fourth & Above Owner,16.86,878 CC,118 bhp,7
+Kia Sonet,2012,1891944,122887,Diesel,Dealer,Automatic,First Owner,24.84,1220 CC,81 bhp,4
+Volkswagen Taigun,2007,1002799,55103,Electric,Dealer,Automatic,First Owner,13.35,1284 CC,124 bhp,4
+Ford EcoSport,2010,737668,130447,Electric,Dealer,Manual,Test Drive Car,24.22,1046 CC,62 bhp,4
+Mahindra Scorpio,2010,1007867,31762,Electric,Dealer,Automatic,First Owner,11.01,870 CC,56 bhp,7
+Hyundai Venue,2013,2128943,31109,CNG,Dealer,Automatic,Test Drive Car,29.6,1173 CC,131 bhp,7
+Volkswagen Vento,2018,1746934,54127,Petrol,Individual,Automatic,Test Drive Car,20.65,1497 CC,128 bhp,7
+Maruti Dzire,2006,1583144,114161,Electric,Dealer,Automatic,Test Drive Car,20.98,1586 CC,52 bhp,6
+Ford Figo,2012,2104875,39237,Electric,Dealer,Automatic,Third Owner,27.52,1395 CC,97 bhp,4
+Mahindra Scorpio,2017,850111,58403,CNG,Dealer,Automatic,Test Drive Car,10.95,988 CC,136 bhp,6
+Maruti Swift,2015,863441,110112,Diesel,Individual,Manual,Test Drive Car,10.07,1995 CC,51 bhp,6
+Hyundai Venue,2007,363185,114873,Electric,Dealer,Manual,First Owner,14.0,1028 CC,139 bhp,7
+Toyota Innova,2014,2208949,124653,Diesel,Individual,Manual,Test Drive Car,11.55,2267 CC,103 bhp,4
+Volkswagen Taigun,2005,1367939,103867,CNG,Individual,Automatic,Second Owner,11.03,2245 CC,76 bhp,7
+Hyundai i20,2005,1488064,80613,Petrol,Individual,Automatic,Fourth & Above Owner,19.12,1598 CC,66 bhp,5
+Hyundai Venue,2010,494672,111086,Electric,Dealer,Manual,Second Owner,28.09,2131 CC,60 bhp,4
+Kia Sonet,2017,1566379,8703,LPG,Individual,Manual,Fourth & Above Owner,14.26,1488 CC,68 bhp,7
+Renault Kwid,2021,907144,68004,Diesel,Individual,Manual,First Owner,27.47,1101 CC,52 bhp,7
+Tata Nexon,2008,885605,8628,Diesel,Individual,Automatic,Third Owner,28.43,880 CC,106 bhp,5
+Kia Seltos,2006,809033,74955,CNG,Dealer,Manual,Second Owner,28.91,2095 CC,139 bhp,6
+Ford Endeavour,2024,2403860,123070,Petrol,Dealer,Manual,Fourth & Above Owner,15.58,853 CC,128 bhp,5
+Kia Seltos,2007,1049058,68309,CNG,Individual,Manual,Third Owner,23.55,1602 CC,121 bhp,6
+Toyota Innova,2011,2001715,85361,Electric,Dealer,Automatic,Fourth & Above Owner,22.5,1959 CC,110 bhp,7
+Maruti Baleno,2010,499107,18288,Petrol,Individual,Automatic,Second Owner,18.98,1703 CC,107 bhp,5
+Tata Nexon,2010,1824407,54683,CNG,Dealer,Manual,Test Drive Car,12.61,1355 CC,66 bhp,4
+Maruti Swift,2013,515017,82911,CNG,Individual,Automatic,Second Owner,14.02,2335 CC,111 bhp,7
+Kia Carens,2024,2169793,36985,Electric,Individual,Automatic,Fourth & Above Owner,26.59,2280 CC,125 bhp,5
+Toyota Innova,2020,964055,73039,Petrol,Dealer,Automatic,Test Drive Car,28.93,2173 CC,84 bhp,7
+Honda City,2011,709743,80981,Electric,Individual,Automatic,Fourth & Above Owner,17.03,1520 CC,53 bhp,7
+Hyundai Creta,2023,2462893,92971,LPG,Individual,Automatic,Test Drive Car,17.66,1973 CC,63 bhp,5
+Mahindra Thar,2024,1860167,26549,Electric,Individual,Manual,First Owner,12.98,1147 CC,136 bhp,6
+Toyota Innova,2013,409289,134796,Petrol,Dealer,Automatic,Third Owner,12.57,2224 CC,137 bhp,6
+Renault Kwid,2011,737228,50846,LPG,Individual,Automatic,Third Owner,14.04,805 CC,76 bhp,6
+Toyota Fortuner,2023,983926,76291,CNG,Individual,Automatic,Test Drive Car,26.52,848 CC,131 bhp,6
+Honda Amaze,2013,723224,66885,CNG,Dealer,Automatic,First Owner,25.77,1856 CC,108 bhp,6
+Volkswagen Taigun,2005,861280,6720,Electric,Dealer,Manual,Fourth & Above Owner,20.9,2175 CC,96 bhp,5
+Hyundai Verna,2017,1623208,138755,Diesel,Individual,Manual,First Owner,22.92,2012 CC,75 bhp,5
+Renault Triber,2006,1477504,5018,LPG,Individual,Automatic,Test Drive Car,21.94,1747 CC,82 bhp,6
+Kia Carens,2023,680003,39876,CNG,Dealer,Manual,Third Owner,14.4,2019 CC,94 bhp,5
+Volkswagen Taigun,2020,2322195,103764,Petrol,Dealer,Manual,Second Owner,28.7,2118 CC,57 bhp,6
+Tata Tiago,2014,2043131,111327,Electric,Dealer,Automatic,First Owner,25.73,1583 CC,116 bhp,7
+Maruti Swift,2017,740306,123261,Diesel,Individual,Automatic,Test Drive Car,19.55,1917 CC,56 bhp,4
+Mahindra Thar,2017,1460402,10770,Electric,Individual,Manual,Fourth & Above Owner,17.17,2429 CC,73 bhp,4
+Honda City,2015,1940314,28019,CNG,Dealer,Automatic,Fourth & Above Owner,10.21,2130 CC,146 bhp,7
+Toyota Glanza,2006,1207117,110537,LPG,Individual,Automatic,Second Owner,21.13,981 CC,107 bhp,7
+Volkswagen Polo,2020,1985283,104998,Petrol,Dealer,Automatic,First Owner,19.65,1501 CC,63 bhp,6
+Hyundai Verna,2019,2368687,18138,Electric,Dealer,Manual,Second Owner,16.76,1452 CC,128 bhp,7
+Maruti Swift,2024,2293288,128519,CNG,Dealer,Manual,Third Owner,29.69,2261 CC,91 bhp,6
+Toyota Innova,2024,1079036,137991,Diesel,Dealer,Manual,First Owner,22.63,1420 CC,92 bhp,6
+Maruti Dzire,2013,167167,139549,Diesel,Individual,Manual,Third Owner,18.78,1001 CC,110 bhp,7
+Mahindra Scorpio,2017,2020012,114170,LPG,Dealer,Manual,Fourth & Above Owner,15.16,961 CC,124 bhp,6
+Mahindra Scorpio,2019,500550,131448,Electric,Dealer,Automatic,Second Owner,16.68,1054 CC,113 bhp,4
+Hyundai Verna,2012,217433,124860,CNG,Individual,Automatic,Third Owner,22.98,1704 CC,102 bhp,6
+Toyota Fortuner,2014,1184964,63395,LPG,Dealer,Automatic,Fourth & Above Owner,21.95,1103 CC,114 bhp,6
+Renault Duster,2023,1876796,144611,Petrol,Dealer,Manual,First Owner,17.81,2126 CC,77 bhp,6
+Renault Triber,2022,1961234,17356,Petrol,Dealer,Automatic,Third Owner,12.84,1685 CC,123 bhp,6
+Maruti Dzire,2024,1179504,53211,CNG,Individual,Automatic,Third Owner,13.18,819 CC,129 bhp,5
+Ford Figo,2022,2394456,77245,CNG,Dealer,Manual,Third Owner,15.17,945 CC,85 bhp,7
+Tata Tiago,2017,374597,97913,Diesel,Individual,Automatic,Fourth & Above Owner,22.47,2157 CC,59 bhp,6
+Mahindra Thar,2024,345970,112884,Diesel,Individual,Manual,Second Owner,25.64,1659 CC,141 bhp,7
+Tata Altroz,2008,2425576,26859,Diesel,Dealer,Manual,Third Owner,15.22,1199 CC,55 bhp,7
+Renault Kwid,2010,1498771,35502,Diesel,Individual,Automatic,Second Owner,25.39,2136 CC,122 bhp,7
+Tata Altroz,2018,1597845,37767,Electric,Individual,Automatic,Second Owner,25.78,1850 CC,125 bhp,5
+Toyota Innova,2018,1834620,126651,LPG,Individual,Automatic,Third Owner,16.63,1264 CC,120 bhp,6
+Hyundai Venue,2018,2239272,140937,Diesel,Individual,Manual,Third Owner,12.67,1184 CC,69 bhp,5
+Hyundai Verna,2020,2445324,52077,CNG,Dealer,Manual,Test Drive Car,11.53,2069 CC,85 bhp,7
+Hyundai Creta,2009,1779401,92378,Petrol,Individual,Automatic,Test Drive Car,26.54,1911 CC,70 bhp,4
+Renault Triber,2020,1687215,17238,Electric,Dealer,Manual,Fourth & Above Owner,21.0,1603 CC,130 bhp,4
+Ford EcoSport,2006,446454,113282,Petrol,Dealer,Automatic,Fourth & Above Owner,28.5,1550 CC,136 bhp,7
+Renault Duster,2015,882928,76868,LPG,Dealer,Manual,Second Owner,22.92,1176 CC,91 bhp,7
+Kia Seltos,2024,1651705,122224,Petrol,Individual,Automatic,Fourth & Above Owner,19.55,1194 CC,81 bhp,4
+Volkswagen Vento,2005,1628811,17796,Petrol,Dealer,Manual,Second Owner,25.65,2082 CC,60 bhp,7
+Kia Sonet,2021,1452853,136824,LPG,Individual,Automatic,Third Owner,23.03,1134 CC,70 bhp,7
+Honda WR-V,2006,909625,127898,LPG,Individual,Automatic,First Owner,25.27,2067 CC,91 bhp,5
+Renault Duster,2009,422951,146662,Diesel,Dealer,Manual,Second Owner,10.24,2265 CC,110 bhp,4
+Renault Duster,2009,1326133,133212,CNG,Dealer,Automatic,Test Drive Car,14.77,1093 CC,145 bhp,6
+Renault Kwid,2011,940034,146967,Electric,Dealer,Manual,First Owner,25.44,2447 CC,122 bhp,6
