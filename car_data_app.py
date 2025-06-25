@@ -1,92 +1,101 @@
-import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
+import streamlit as st import pandas as pd import matplotlib.pyplot as plt import seaborn as sns
 
-# -------------------
-# App Header & Logo
-# -------------------
-def app_header():
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Car_icon_2.svg/1200px-Car_icon_2.svg.png", width=80)
-    st.markdown("<h2 style='color:#e74c3c;'>🚗 Car Data Analysis Dashboard</h2>", unsafe_allow_html=True)
+-------------------
 
-# -------------------
-# Login Page
-# -------------------
-def login_page():
-    st.subheader("🔐 Login Required")
-    username = st.text_input("Username")
-    password = st.text_input("Password", type="password")
-    if st.button("Login"):
-        if username == "admin" and password == "1234":
-            st.session_state.logged_in = True
-            st.rerun()
-        else:
-            st.error("❌ Incorrect username or password")
+App Header & Logo
 
-# -------------------
-# Dashboard Page
-# -------------------
-def dashboard():
-    app_header()
+-------------------
 
-    # Load data
-    df = pd.read_csv("CAR DETAILS FROM CAR DEKHO.csv")
-    df["name_2"] = df["name"].apply(lambda x: x.split(" ")[0])
+def app_header(): st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Car_icon_2.svg/1200px-Car_icon_2.svg.png", width=80) st.markdown("<h2 style='color:#e74c3c;'>🚗 Advanced Car Data Analysis Dashboard</h2>", unsafe_allow_html=True)
 
-    # Form starts here
-    with st.form("filter_form"):
-        st.markdown("### 📋 Filter Car Data")
+-------------------
 
-        search_text = st.text_input("🔍 Search by Car Name or Brand (optional)")
-        year = st.selectbox("📅 Select Year", sorted(df["year"].unique(), reverse=True))
-        fuel = st.multiselect("⛽ Select Fuel Type", df["fuel"].unique())
+Login Page
 
-        submitted = st.form_submit_button("Apply Filters")
+-------------------
 
-    # Show results after submit
-    if submitted:
-        filtered_df = df.copy()
+def login_page(): st.subheader("🔐 Login Required") username = st.text_input("Username") password = st.text_input("Password", type="password") if st.button("Login"): if username == "admin" and password == "1234": st.session_state.logged_in = True st.rerun() else: st.error("❌ Incorrect username or password")
 
-        if search_text:
-            filtered_df = filtered_df[filtered_df["name"].str.contains(search_text, case=False)]
+-------------------
 
-        filtered_df = filtered_df[filtered_df["year"] == year]
+Dashboard Page
 
-        if fuel:
-            filtered_df = filtered_df[filtered_df["fuel"].isin(fuel)]
+-------------------
 
-        st.subheader(f"📊 {len(filtered_df)} Cars Found")
-        st.dataframe(filtered_df)
+def dashboard(): app_header()
 
-        # Download CSV
-        csv = filtered_df.to_csv(index=False)
-        st.download_button("📥 Download Filtered Data", csv, "filtered_cars.csv", "text/csv")
+# Load data
+df = pd.read_csv("UPDATED_CAR_DATA.csv")
+df["brand"] = df["name"].apply(lambda x: x.split(" ")[0])
 
-        # Top 5 brands bar chart
-        st.subheader("🏆 Top 5 Car Brands")
-        top_brands = filtered_df["name_2"].value_counts().head(5)
-        st.bar_chart(top_brands)
+# Sidebar filters
+st.sidebar.header("🔧 Filter Options")
+brands = st.sidebar.multiselect("Select Brand(s)", df["brand"].unique())
+fuel = st.sidebar.multiselect("Select Fuel Type(s)", df["fuel"].unique())
+transmission = st.sidebar.multiselect("Select Transmission", df["transmission"].unique())
+owner = st.sidebar.multiselect("Select Owner Type", df["owner"].unique())
+year_range = st.sidebar.slider("Select Year Range", int(df["year"].min()), int(df["year"].max()), (2018, 2024))
 
-        # Fuel type pie chart
-        st.subheader("⛽ Fuel Type Distribution")
-        fuel_counts = filtered_df["fuel"].value_counts()
-        fig1, ax1 = plt.subplots()
-        ax1.pie(fuel_counts, labels=fuel_counts.index, autopct='%1.1f%%', startangle=90)
-        ax1.axis("equal")
-        st.pyplot(fig1)
+# Filter data
+filtered_df = df[
+    (df["year"] >= year_range[0]) & (df["year"] <= year_range[1])
+]
+if brands:
+    filtered_df = filtered_df[filtered_df["brand"].isin(brands)]
+if fuel:
+    filtered_df = filtered_df[filtered_df["fuel"].isin(fuel)]
+if transmission:
+    filtered_df = filtered_df[filtered_df["transmission"].isin(transmission)]
+if owner:
+    filtered_df = filtered_df[filtered_df["owner"].isin(owner)]
 
-        # Logout button
-        if st.button("🔓 Logout"):
-            st.session_state.logged_in = False
-            st.rerun()
+st.subheader(f"📊 Showing {len(filtered_df)} Cars")
+st.dataframe(filtered_df)
 
-# -------------------
-# App Launcher
-# -------------------
-if "logged_in" not in st.session_state:
+# Visualizations
+if not filtered_df.empty:
+    st.markdown("### 📈 Price vs. Year")
+    fig, ax = plt.subplots()
+    sns.scatterplot(data=filtered_df, x="year", y="selling_price", hue="fuel", ax=ax)
+    st.pyplot(fig)
+
+    st.markdown("### 🏆 Top 5 Brands by Listings (Pie Chart)")
+    top_brands_pie = filtered_df["brand"].value_counts().head(5)
+    fig_pie1, ax_pie1 = plt.subplots()
+    ax_pie1.pie(top_brands_pie, labels=top_brands_pie.index, autopct='%1.1f%%', startangle=90)
+    ax_pie1.axis("equal")
+    st.pyplot(fig_pie1)
+
+    st.markdown("### 🚘 Top 5 Car Models Overall (Pie Chart)")
+    top_cars = filtered_df["name"].value_counts().head(5)
+    fig2, ax2 = plt.subplots()
+    ax2.pie(top_cars, labels=top_cars.index, autopct='%1.1f%%', startangle=90)
+    ax2.axis("equal")
+    st.pyplot(fig2)
+
+    st.markdown("### ⚙️ Correlation Heatmap")
+    numeric_df = filtered_df[["year", "selling_price", "km_driven", "mileage", "seats"]].dropna()
+    corr = numeric_df.corr()
+    fig3, ax3 = plt.subplots()
+    sns.heatmap(corr, annot=True, cmap="coolwarm", ax=ax3)
+    st.pyplot(fig3)
+
+# Download CSV
+csv = filtered_df.to_csv(index=False)
+st.download_button("📥 Download Filtered Data", csv, "filtered_cars.csv", "text/csv")
+
+# Logout
+if st.button("🔓 Logout"):
     st.session_state.logged_in = False
+    st.rerun()
 
-if st.session_state.logged_in:
-    dashboard()
-else:
-    login_page()
+-------------------
+
+App Launcher
+
+-------------------
+
+if "logged_in" not in st.session_state: st.session_state.logged_in = False
+
+if st.session_state.logged_in: dashboard() else: login_page()
+
