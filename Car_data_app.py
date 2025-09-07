@@ -1,120 +1,67 @@
 import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
 
-# --------------------------
-# LOGIN SYSTEM
-# --------------------------
-def login():
-    st.sidebar.title("Login")
-    username = st.sidebar.text_input("Username")
-    password = st.sidebar.text_input("Password", type="password")
-    if st.sidebar.button("Login"):
-        if username == "admin" and password == "admin123":
+st.set_page_config(page_title="Retail Sales Dashboard", page_icon="🛒")
+
+# Session state for login
+if "logged_in" not in st.session_state:
+    st.session_state["logged_in"] = False
+
+# -----------------------
+# Registration Page
+# -----------------------
+def registration_page():
+    st.title("📝 User Registration")
+    username = st.text_input("Enter Username")
+    email = st.text_input("Enter Email")
+    password = st.text_input("Enter Password", type="password")
+
+    if st.button("Register"):
+        st.success(f"✅ User {username} registered successfully! (Mock Only)")
+
+    if st.button("Go to Login"):
+        st.session_state["page"] = "login"
+
+# -----------------------
+# Login Page
+# -----------------------
+def login_page():
+    st.title("🔐 Login")
+    email = st.text_input("Email")
+    password = st.text_input("Password", type="password")
+
+    if st.button("Login"):
+        # Mock validation
+        if email == "test@test.com" and password == "1234":
             st.session_state["logged_in"] = True
+            st.session_state["username"] = "TestUser"
             st.success("✅ Login successful!")
+            st.session_state["page"] = "home"
         else:
-            st.error("❌ Invalid username or password")
+            st.error("❌ Invalid email or password (mock only)")
 
-# --------------------------
-# LOAD DATA
-# --------------------------
-@st.cache_data
-def load_data():
-    df = pd.read_csv("RETAIL_SALES_DATA.csv")   # <- Replace with your dataset file
-    return df
+    if st.button("Go to Register"):
+        st.session_state["page"] = "register"
 
-# --------------------------
-# PLOT FUNCTIONS
-# --------------------------
-def plot_bar_by_category(df: pd.DataFrame, category: str):
-    counts = df[category].value_counts()
-    fig, ax = plt.subplots()
-    counts.plot(kind="bar", ax=ax)
-    ax.set_title(f"Bar Chart by {category}")
-    st.pyplot(fig)
-
-def plot_pie_by_category(df: pd.DataFrame, category: str):
-    counts = df[category].value_counts()
-    fig, ax = plt.subplots()
-    counts.plot(kind="pie", autopct="%1.1f%%", ax=ax)
-    ax.set_ylabel("")
-    ax.set_title(f"Pie Chart by {category}")
-    st.pyplot(fig)
-
-def plot_sales_trend(df: pd.DataFrame, date_col: str, sales_col: str):
-    df[date_col] = pd.to_datetime(df[date_col])
-    sales_trend = df.groupby(df[date_col].dt.to_period("M"))[sales_col].sum()
-    fig, ax = plt.subplots()
-    sales_trend.plot(ax=ax, marker="o")
-    ax.set_title("📈 Monthly Sales Trend")
-    ax.set_xlabel("Month")
-    ax.set_ylabel("Total Sales")
-    st.pyplot(fig)
-
-# --------------------------
-# MAIN APP
-# --------------------------
-def main():
-    st.title("🛒 Retail Sales Analysis Dashboard")
-
-    if "logged_in" not in st.session_state:
+# -----------------------
+# Home Page
+# -----------------------
+def home_page():
+    st.title("🏠 Welcome to Retail Sales Dashboard")
+    st.write(f"Hello, {st.session_state.get('username', 'User')} 👋")
+    st.write("This is just a mock showcase of how the project will look after login.")
+    if st.button("Logout"):
         st.session_state["logged_in"] = False
+        st.session_state["page"] = "login"
 
-    if not st.session_state["logged_in"]:
-        login()
-        return
+# -----------------------
+# Main App Logic
+# -----------------------
+if "page" not in st.session_state:
+    st.session_state["page"] = "login"
 
-    # Load data
-    df = load_data()
-
-    st.subheader("📊 Dataset Preview")
-    st.dataframe(df.head())
-
-    # --------------------------
-    # Data Filtering
-    # --------------------------
-    st.subheader("🔎 Data Filtering")
-    category = st.selectbox("Select column to filter:", df.columns)
-    unique_values = df[category].unique()
-    selected_values = st.multiselect(f"Filter {category}", unique_values)
-
-    if selected_values:
-        df = df[df[category].isin(selected_values)]
-        st.write(f"Filtered dataset ({len(df)} rows):")
-        st.dataframe(df)
-
-    # --------------------------
-    # Charts
-    # --------------------------
-    st.subheader("📈 Visualizations")
-    chart_type = st.radio("Choose chart type:", ["Bar Chart", "Pie Chart", "Sales Trend"])
-    chart_category = st.selectbox("Select column for chart:", df.columns)
-
-    if chart_type == "Bar Chart":
-        plot_bar_by_category(df, chart_category)
-    elif chart_type == "Pie Chart":
-        plot_pie_by_category(df, chart_category)
-    elif chart_type == "Sales Trend":
-        # You need to tell which column is "Date" and which is "Sales"
-        date_col = st.selectbox("Select Date column:", df.columns)
-        sales_col = st.selectbox("Select Sales column:", df.columns)
-        plot_sales_trend(df, date_col, sales_col)
-
-    # --------------------------
-    # Download Option
-    # --------------------------
-    st.subheader("⬇ Download Data")
-    csv = df.to_csv(index=False).encode("utf-8")
-    st.download_button(
-        label="Download filtered data as CSV",
-        data=csv,
-        file_name="filtered_sales_data.csv",
-        mime="text/csv"
-    )
-
-# --------------------------
-# RUN APP
-# --------------------------
-if __name__ == "__main__":
-    main()
+if st.session_state["page"] == "login":
+    login_page()
+elif st.session_state["page"] == "register":
+    registration_page()
+elif st.session_state["page"] == "home":
+    home_page()
